@@ -1,6 +1,6 @@
 import MainMovies from "./MainMovies";
 
-function Homepage() {
+function Moviepage() {
   return (
     <div className="container mt-3">
       <MainMovies query="Lord of the Rings" />
@@ -10,4 +10,4 @@ function Homepage() {
   );
 }
 
-export default Homepage;
+export default Moviepage;
